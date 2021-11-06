@@ -14,7 +14,6 @@ public class Book {
         book.genre = "научная";
         book.publishing = 1980;
         book.pages = 526;
-
         System.out.println(book.author + ',' + ' ' + book.name + ',' + ' ' + book.genre
                 + ',' + ' ' + book.publishing + ' ' + "г." + ',' + ' ' + book.pages + ' ' + "стр.");
 
@@ -24,7 +23,6 @@ public class Book {
         book1.genre = "проза";
         book1.publishing = 1979;
         book1.pages = 380;
-
         System.out.println(book1.author + ',' + ' ' + book1.name + ',' + ' ' + book1.genre
                 + ',' + ' ' + book1.publishing + ' ' + "г." + ',' + ' ' + book1.pages + ' ' + "стр.");
 
@@ -34,7 +32,6 @@ public class Book {
         book2.genre = "роман";
         book2.publishing = 1983;
         book2.pages = 464;
-
         System.out.println(book2.author + ',' + ' ' + book2.name + ',' + ' ' + book2.genre
                 + ',' + ' ' + book2.publishing + ' ' + "г." + ',' + ' ' + book2.pages + ' ' + "стр.");
     }
